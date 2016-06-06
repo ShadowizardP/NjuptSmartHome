@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>SmartHome</display-name>
+  
+  <!-- 
+  <servlet>
+    <servlet-name>saveTemperature</servlet-name>
+    <servlet-class>servlet.SaveTemperature</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>saveTemperature</servlet-name>
+    <url-pattern>/saveTemperature</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>saveHumidity</servlet-name>
+    <servlet-class>servlet.SaveHumidity</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>saveHumidity</servlet-name>
+    <url-pattern>/saveHumidity</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>uploadImage</servlet-name>
+    <servlet-class>servlet.UploadImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploadImage</servlet-name>
+    <url-pattern>/uploadImage</url-pattern>
+  </servlet-mapping>
+  -->
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
